@@ -24,7 +24,7 @@ export default function Matches() {
                 </div>
             </div>) : (
             <div className="w-full h-full matche_height overflow-auto scrollbar-y flex flex-col justify-center items-center p-4">
-                <img src="/images/no_match.png" alt="no matches is existe" />
+                <img src="images/no_match.png" alt="no matches is existe" />
                 <span className="text-lg text-slate-600">no matches is existe.</span>
             </div>
         )
