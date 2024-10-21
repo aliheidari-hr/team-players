@@ -1,0 +1,27 @@
+/* moz scrollbar custom style */
+@-moz-document url-prefix() {
+  .scrollbar-y {
+    scrollbar-width: thin;
+    scrollbar-color: #c0c0c0 rgba(255, 255, 255, 0);
+  }
+}
+
+/* custom scrollbar Y */
+.scrollbar-y::-webkit-scrollbar {
+  width: 7px;
+}
+
+.scrollbar-y::-webkit-scrollbar-thumb {
+  background-color: #c0c0c0;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.scrollbar-y::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+
+.matche_height {
+  max-height: calc(100vh - 74px);
+  min-height: calc(100vh - 74px);
+}
